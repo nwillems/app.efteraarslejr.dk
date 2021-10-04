@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <link rel="icon" href="/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="refresh" content="3; url=/" />
     <title>Efterårslejr Handelsløb</title>
     <script type="module" crossorigin src="/assets/settings.470508b7.js"></script>
     <link rel="modulepreload" href="/assets/modulepreload-polyfill.b7f2da20.js">
@@ -15,8 +16,9 @@ var urlParams = new URLSearchParams(window.location.search);
 for(parameter of urlParams.entries()){
   var key = parameter[0];
   var value = parameter[1]
-  var cookie = `key=value; Path=/; max-age=172800; SameSite=lax; Secure;`
-  console.log()
+  var cookie = `${key}=${value}; Path=/; max-age=172800; SameSite=lax; Secure;`
+  document.cookie = cookie;
+
 }
 </script>
   </body>
