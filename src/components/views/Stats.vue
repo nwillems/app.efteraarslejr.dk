@@ -1,12 +1,11 @@
-<script setup>
-
-defineProps({
-  sheet_id: String
-})
+<script>
+export default {
+  props: ['stats_url'],
+}
 </script>
 
 <template>
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSffXEWwxxLpVUwkNSEb5lQMP0fxpxF7LbVU_RIC3xGWn2t1ZQ/viewform?embedded=true&entry.857897558={{sheet_id}}" class="w-screen h-screen" frameborder="0" marginheight="0" marginwidth="0">Indlæser…</iframe>
+<iframe v-bind:src="stats_url" class="w-screen h-screen" frameborder="0" marginheight="0" marginwidth="0">Indlæser…</iframe>
 
 <div>Here goes stats</div>
 <ol>
