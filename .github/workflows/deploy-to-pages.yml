@@ -27,10 +27,9 @@ jobs:
           key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
           restore-keys: |
             ${{ runner.os }}-node-
+      - run: python3 utils/kmz-to-json.py > public/poster.json
       - run: npm ci
-      - run: npm run build
-      - run: cp CNAME ./dist
-      - run: python3 utils/kmz-to-json.py > dist/poster.json
+      - run: npm run build      
       - name: deploy
         uses: peaceiris/actions-gh-pages@v3
         if: ${{ github.ref == 'refs/heads/main' }}
