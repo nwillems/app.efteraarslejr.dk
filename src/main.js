@@ -13,11 +13,13 @@ const base_config = config.general
 import Trade from './components/views/Trade.vue'
 import Stats from './components/views/Stats.vue'
 import Exchange from './components/views/Exchange.vue'
+import Map from './components/views/Map.vue'
 
 const routes = [
   {path: '/', component: Trade, props: { team_name: team_config.team_name }},
   {path: '/stats', component: Stats, props: {stats_url: team_config.stats_url}},
-  {path: '/exchange', component: Exchange}
+  {path: '/exchange', component: Exchange},
+  {path: '/map', component: Map},
 ]
 
 const router = createRouter({
@@ -29,4 +31,4 @@ const app = createApp(App)
 app.use(router)
 app.mount('#app')
 
-console.log(current_config)
+console.log(team_config)

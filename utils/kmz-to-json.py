@@ -34,10 +34,10 @@ for placemark in root.iterfind("./gis:Document/gis:Placemark", namespaces=ns):
   coordinate_y, coordinate_x, _ = coordinates.split(",")
 
   if opens:
-    opens = int(opens, base=10)
+    opens = int(opens, base=10) / 1000
 
   if closes:
-    closes = int(closes, base=10)
+    closes = int(closes, base=10) / 1000
 
   data_elm = {
     "name": name,
