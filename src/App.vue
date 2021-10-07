@@ -5,10 +5,10 @@ import Menu from './components/Menu.vue'
 </script>
 
 <template>
-<div class="pt-8">
+<div>
   <router-view></router-view>
 </div>
-  <div class="fixed h-20 top-0 w-screen">
+  <div class="bg-white absolute bottom-0 w-full border-t border-gray-200 flex">
     <Menu />
   </div>
 </template>
@@ -20,6 +20,5 @@ import Menu from './components/Menu.vue'
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
 }
 </style>
