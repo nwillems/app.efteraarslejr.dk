@@ -1,27 +1,12 @@
 <script setup>
-import { ref } from 'vue'
-
-defineProps({
-  msg: String
-})
-
-const count = ref(0)
 </script>
 
 <template>
-<div class="flex flex-row bg-gradient-to-r from-indigo-400 via-indigo-500 to-blue-500">
-  <div class="flex-1 menu-btn">
-    <router-link to="/">Handel</router-link>
-  </div>
-  <div class="flex-1 menu-btn">
-    <router-link to="/stats">Point</router-link>
-  </div>
-  <div class="flex-1 menu-btn">
-    <router-link to="/exchange">Børsen</router-link>
-  </div>
-  <div class="flex-1 menu-btn">
-    <router-link to="/map">Kort</router-link>
-  </div>
+<div class="h-20 flex flex-row bg-gradient-to-r from-indigo-400 via-indigo-500 to-blue-500">
+  <router-link class="flex-1 menu-btn" to="/">Handel</router-link>
+  <router-link class="flex-1 menu-btn" to="/stats">Point</router-link>
+  <router-link class="flex-1 menu-btn" to="/exchange">Børsen</router-link>
+  <router-link class="flex-1 menu-btn" to="/map">Kort</router-link>
 </div>
 </template>
 

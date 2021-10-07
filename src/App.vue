@@ -5,8 +5,10 @@ import Menu from './components/Menu.vue'
 </script>
 
 <template>
+<div class="pt-8">
   <router-view></router-view>
-  <div class="fixed top-0 w-screen">
+</div>
+  <div class="fixed h-20 top-0 w-screen">
     <Menu />
   </div>
 </template>
