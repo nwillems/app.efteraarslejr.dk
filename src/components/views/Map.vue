@@ -69,7 +69,6 @@ export default {
 </script>
 
 <template>
-Map View
  <div id="container">
    <div id="mapContainer"></div>
  </div>
