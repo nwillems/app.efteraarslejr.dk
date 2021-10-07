@@ -4,6 +4,9 @@ import App from './App.vue'
 import './index.css'
 import config from './assets/configuration.json'
 
+import { Chart, registerables } from 'chart.js';
+Chart.register(...registerables);
+
 const cookieValue = (cookies, key) => cookies.split("; ").find(row => row.startsWith(`${key}=`)).split("=")[1]
 
 const team_id = cookieValue(document.cookie, "team_id"); // "fe1ce263-87d9-4f70-ad5b-a196360b43b6"
@@ -17,7 +20,7 @@ import Map from './components/views/Map.vue'
 
 const routes = [
   {path: '/', component: Trade, props: { team_name: team_config.team_name }},
-  {path: '/stats', component: Stats, props: {stats_url: team_config.stats_url}},
+  {path: '/stats', component: Stats, props: {team_config: team_config}},
   {path: '/exchange', component: Exchange},
   {path: '/map', component: Map},
 ]
