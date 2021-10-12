@@ -9,7 +9,8 @@ Chart.register(...registerables);
 
 const cookieValue = (cookies, key) => cookies.split("; ").find(row => row.startsWith(`${key}=`)).split("=")[1]
 
-const team_id = cookieValue(document.cookie, "team_id"); // "fe1ce263-87d9-4f70-ad5b-a196360b43b6"
+const team_id = cookieValue(document.cookie, "team_id"); 
+// const team_id = "fe1ce263-87d9-4f70-ad5b-a196360b43b6"
 const team_config = config.teams[team_id]
 const base_config = config.general
 
@@ -35,3 +36,4 @@ app.use(router)
 app.mount('#app')
 
 console.log(team_config)
+
