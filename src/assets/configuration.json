@@ -1,11 +1,56 @@
 {
-  "general": {
-    "trade_base_url": ""
-  },
   "teams": {
     "fe1ce263-87d9-4f70-ad5b-a196360b43b6": {
-      "team_name": "Alfa",
-      "stats_url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vQ_YWDM1AJ3ZSjPQ97zhy5ZuJpCot85QyhGVtydyh0YZMjZkjVPlP0IzTtZkSAqByDJ3vG121sWqqbu/pubchart?oid=1138618257&amp;format=interactive"
+      "team_name": "Aguirre"
+    },
+    "d7ea6423-f695-4fc1-b719-ab6adc76bd9b": {
+      "team_name": "Bates"
+    },
+    "9d10a6da-bbf8-4daa-95e3-4f5a9e88bd96": {
+      "team_name": "Carvajal"
+    },
+    "41057559-7a4a-48a8-ad0b-5d8d5d09a184": {
+      "team_name": "Douville"
+    },
+    "a7001d8d-0775-43ee-8854-e9bd0a2eb4e3": {
+      "team_name": "Fawcett"
+    },
+    "f6ae6f2f-7fed-401a-90c6-652f0f06edf0": {
+      "team_name": "Ghinsberg"
+    },
+    "d590e43c-1c99-48b1-9951-5bda67a7e1ae": {
+      "team_name": "Herndon"
+    },
+    "d485a92a-52c4-4e53-942d-4569341d453b": {
+      "team_name": "Quesada"
+    },
+    "f4f695e3-4b81-45f4-ab83-9fc90e1095e4": {
+      "team_name": "Langsdorff"
+    },
+    "89dbd30b-87a8-421c-89fa-36c3e0986d31": {
+      "team_name": "Maldonado"
+    },
+    "747d8b95-0db3-4359-a25d-7a8ae80c92cb": {
+      "team_name": "Orellana"
+    },
+    "72b8007f-1c0c-4284-a9a9-c74434596f72": {
+      "team_name": "Rondon"
+    },
+    "32daf948-0ea0-4bb1-9736-c7cdb19776ed": {
+      "team_name": "Spix"
+    },
+    "80d22c4a-403d-45f3-9125-1a02b6dd63e9": {
+      "team_name": "Tavares"
+    },
+    "859f504f-708d-4067-85ab-85ec3a8593ed": {
+      "team_name": "Ursua"
+    },
+    "f0c7d890-3a33-45dc-a935-05fab4d1e688": {
+      "team_name": "Wallace"
+    },
+    "bf60fc57-c838-4999-a86f-5f3b31dea8b6": {
+      "team_name": "Zahm"
     }
-  }
+  },
+  "general": {}
 }
