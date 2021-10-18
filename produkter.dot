@@ -1,0 +1,51 @@
+digraph G {
+    rankdir="LR"
+
+    pind [label="🥢 Pind, 3"];
+    fjer [label="🪶 Fjer, 6"];
+    snor [label="🧵 Snor, 2"];
+    perle [label="🦪 Perler, 3"];
+    kobber [label="📿 Kobber, 9"];
+    gummi [label="🪠 Gummi, 6"];
+    salt [label="🧂 Salt, 6"];
+    olie [label="⛽ Olie, 2"];
+    krydderi [label="🌿 Krydderi, 3"];
+    vand [label="💧 Vand, 6"];
+    mel [label="🍞 Mel, 6"];
+    majs [label="🌽 Majs, 6"];
+    
+    pil [shape=doublecircle, label="🏹 Pil, 45"]; // Org value 9
+    kors [shape=doublecircle, label="✝️ Kors, 35"]; // Org value
+    myg [shape=doublecircle, label="🦟 Myggebalsam, 25"]; // Org value 5
+    sko [shape=doublecircle, label="🩴 Sko, 55"]; // Org value 11
+    smykke [shape=doublecircle, label="💍 Smykke, 80"]; // Org value 16
+    popcorn [shape=doublecircle, label="🍿 Popcorn, 70"]; // Org value 14
+    brod [shape=doublecircle, label="🥖 Brød, 75"]; // Org value 15
+
+
+    pind -> pil
+    fjer -> pil
+
+    snor -> kors
+    pind -> kors
+
+    olie -> myg
+    krydderi -> myg
+
+    snor -> sko
+    gummi -> sko
+    perle -> sko
+
+    snor -> smykke
+    snor -> smykke
+    perle -> smykke
+    kobber -> smykke
+
+    salt -> popcorn
+    olie -> popcorn
+    majs -> popcorn
+
+    vand -> brod
+    mel -> brod
+    krydderi -> brod
+}
