@@ -65,7 +65,9 @@ export default {
           L.marker(post.coordinates, {
             title: post.name,
             icon: postMarker,
-          }).addTo(mapDiv);
+          })
+          .addTo(mapDiv)
+          .bindPopup(post.name);
       }
     }
  },
