@@ -24,7 +24,7 @@ export default {
     setupLeafletMap: function () {
       const mapDiv = L.map("mapContainer", {
         center: [55.91812377777777, 11.907784333333336],
-        zoom: 16,
+        zoom: 15,
         zoomControl: false,
         dragging: false
       });
