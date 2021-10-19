@@ -17,13 +17,13 @@ export default {
   name: "Map",
   data() {
     return{
-      center: [37,7749, -122,4194]
+      center: [55.91812377777777, 11.907784333333336]
     }
   },
   methods: {
     setupLeafletMap: function () {
       const mapDiv = L.map("mapContainer", {
-        center: [55.916999, 11.911422],
+        center: [55.91812377777777, 11.907784333333336],
         zoom: 16,
         zoomControl: false,
         dragging: false

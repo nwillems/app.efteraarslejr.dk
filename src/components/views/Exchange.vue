@@ -4,7 +4,7 @@
 <template>
 <div class="h-googleframe overflow-x-scroll">
 <svg class="w-screen"
- viewBox="0.00 0.00 361.37 1043.19" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  viewBox="0.00 0.00 361.37 1043.19" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 1039.19)">
 <title>G</title>
 <polygon fill="white" stroke="transparent" points="-4,4 -4,-1039.19 357.37,-1039.19 357.37,4 -4,4"/>

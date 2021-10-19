@@ -28,6 +28,7 @@ digraph G {
 
     snor -> kors
     pind -> kors
+    pind -> kors
 
     olie -> myg
     krydderi -> myg
